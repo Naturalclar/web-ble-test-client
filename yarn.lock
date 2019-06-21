@@ -1596,6 +1596,11 @@
     "@types/unist" "*"
     "@types/vfile-message" "*"
 
+"@types/web-bluetooth@^0.0.4":
+  version "0.0.4"
+  resolved "https://registry.yarnpkg.com/@types/web-bluetooth/-/web-bluetooth-0.0.4.tgz#107b7fc8666470035b541b194c933d320cd8fb47"
+  integrity sha512-C+BgVBBGY9c6ixcc5PsKAmGaCy3bswZ5zx/AWIAik9dgFuBkFsXBA3ze69jJi05xdZQ99QkfBSVIX6zl+6Tmww==
+
 "@types/yargs@^12.0.2", "@types/yargs@^12.0.9":
   version "12.0.12"
   resolved "https://registry.yarnpkg.com/@types/yargs/-/yargs-12.0.12.tgz#45dd1d0638e8c8f153e87d296907659296873916"
@@ -8286,6 +8291,13 @@ react-app-polyfill@^1.0.1:
     regenerator-runtime "0.13.2"
     whatwg-fetch "3.0.0"
 
+react-bluetooth@^0.0.0:
+  version "0.0.0"
+  resolved "https://registry.yarnpkg.com/react-bluetooth/-/react-bluetooth-0.0.0.tgz#45017e2d4547f0c71142bf4d73f269aca56daa49"
+  integrity sha512-/4khUvNm8DG+vcO4TlhxhZvysJ9q8XKfzegOtg/QjlA2mzHitOw450NteieYhLj6ywqrEQfJUXPXUWsv1cvTEQ==
+  dependencies:
+    "@types/web-bluetooth" "^0.0.4"
+
 react-dev-utils@^9.0.1:
   version "9.0.1"
   resolved "https://registry.yarnpkg.com/react-dev-utils/-/react-dev-utils-9.0.1.tgz#5c03d85a0b2537d0c46af7165c24a7dfb274bef2"
@@ -8317,7 +8329,7 @@ react-dev-utils@^9.0.1:
     strip-ansi "5.2.0"
     text-table "0.2.0"
 
-react-dom@16.8.6:
+react-dom@^16.8.6:
   version "16.8.6"
   resolved "https://registry.yarnpkg.com/react-dom/-/react-dom-16.8.6.tgz#71d6303f631e8b0097f56165ef608f051ff6e10f"
   integrity sha512-1nL7PIq9LTL3fthPqwkvr2zY7phIPjYrT0jp4HjyEQrEROnw4dG41VVwi/wfoCneoleqrNX7iAD+pXebJZwrwA==
@@ -8402,7 +8414,7 @@ react-scripts@3.0.1:
   optionalDependencies:
     fsevents "2.0.6"
 
-react@16.8.6:
+react@^16.8.6:
   version "16.8.6"
   resolved "https://registry.yarnpkg.com/react/-/react-16.8.6.tgz#ad6c3a9614fd3a4e9ef51117f54d888da01f2bbe"
   integrity sha512-pC0uMkhLaHm11ZSJULfOBqV4tIZkx87ZLvbbQYunNixAAvjnC+snJCg0XQXn9VIsttVsbZP/H/ewzgsd5fxKXw==
